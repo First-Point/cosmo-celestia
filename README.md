@@ -6,10 +6,11 @@ Cosmo Celestia is a revolutionary AI trading agent powered by ElizaOS that autom
 ## 📍 Contract Addresses (ABC Testnet)
 
 ```
-CosmoDEX: 0x...       // Your DEX contract address
-IcecreamToken: 0x...  // ICECREAM token address
-TestUSDC: 0x...       // Test USDC token address
+CosmoDEX: 0x68Ef81065Bcad75401B1df5923611DfFD29596cc
+IcecreamToken: 0x5b0B5E7fbd7f88582a25dA520E3e355866669960
+TestUSDC: 0x51Ed2EF83Db766f1555A5a2Ef6E602588aEd3c98
 ```
+
 
 ## ✨ Key Features
 
