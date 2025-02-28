@@ -1,11 +1,11 @@
 import axios, { AxiosInstance } from "axios";
 import { CosmoConfig } from "../environment";
-import { 
-    SwapConfig, 
-    DexData, 
-    WalletDexData, 
-    LiquidityConfig, 
-    TradeLogs 
+import {
+    SwapConfig,
+    DexData,
+    WalletDexData,
+    LiquidityConfig,
+    TradeLogs
 } from "../types";
 
 export interface CosmoServiceConfig {
@@ -33,17 +33,17 @@ export class CosmoService {
 
     async getSwapConfig(): Promise<SwapConfig> {
         const response = await this.client.get('/trade/swap/config');
-        return response.data.data;
+        return response.data;
     }
 
     async getDexData(): Promise<DexData> {
         const response = await this.client.get('/trade/dex');
-        return response.data.data;
+        return response.data;
     }
 
     async getWalletDexData(walletAddress: string): Promise<WalletDexData> {
         const response = await this.client.get(`/trade/dex/wallet/${walletAddress}`);
-        return response.data.data;
+        return response.data;
     }
 
     async removeLiquidity(walletAddress: string, liquidityAmount: string): Promise<{
@@ -57,20 +57,20 @@ export class CosmoService {
             walletAddress,
             liquidityAmount
         });
-        return response.data.data;
+        return response.data;
     }
 
     async getLiquidityConfig(): Promise<LiquidityConfig> {
         const response = await this.client.get('/trade/liquidity/config');
-        return response.data.data;
+        return response.data;
     }
 
     async getTradeLogs(walletAddress: string): Promise<TradeLogs> {
         const response = await this.client.get(`/trade/logs/${walletAddress}`);
-        return response.data.data;
+        return response.data;
     }
 }
-    
+
 export function createCosmoService(config: CosmoConfig): CosmoService {
     return new CosmoService({
         apiBaseUrl: config.API_BASE_URL,
