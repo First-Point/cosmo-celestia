@@ -142,8 +142,7 @@ _msgSender()
 
 // Get the transaction data in context of meta-transactions
 _msgData()
-```s
-
+```
 ## 🌐 About Cosmo Hub Platform
 
 Cosmo Celestia is powered by [Cosmo Hub](https://cosmohub.ai/), our comprehensive AI agent platform for the ABC ecosystem. Features include:
@@ -152,6 +151,10 @@ Cosmo Celestia is powered by [Cosmo Hub](https://cosmohub.ai/), our comprehensiv
 - **Strategy Marketplace**: Access pre-built trading strategies
 - **Risk Management**: Advanced tools for portfolio protection
 - **Performance Analytics**: Detailed trading insights and reporting
+
+<img width="1911" alt="image" src="https://github.com/user-attachments/assets/2648f456-6ded-456f-8564-ee4e87c36511" />
+<img width="1912" alt="image" src="https://github.com/user-attachments/assets/42b08235-97a7-4b20-a88d-28284fb7cdb4" />
+
 
 ## 🤝 Contributing
 We welcome contributions! Please see our [Contributing Guidelines](https://github.com/First-Point/cosmo-celestia/blob/main/CONTRIBUTING.md) for details.
@@ -164,11 +167,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## 👥 Team
 - Project Lead: First Point Team
-
----
-
-<img width="1912" alt="image" src="https://github.com/user-attachments/assets/ffee6c5e-11df-4552-bc66-e93f8cf72862" />
-<img width="1912" alt="image" src="https://github.com/user-attachments/assets/6d3718ed-ce92-47bb-90b9-dc18a4e9fc18" />
-
----
 
