@@ -150,6 +150,38 @@ _msgSender()
 // Get the transaction data in context of meta-transactions
 _msgData()
 ```
+
+## How to Setup
+
+1. **Setting Up ElizaOS**  
+   To install and run ElizaOS, execute the following commands:
+   ```bash
+   git clone https://github.com/elizaos/eliza-starter.git
+   cd eliza-starter
+   cp .env.example .env
+   pnpm i && pnpm build && pnpm start
+   ```
+
+2. **Moving the plugin-cosmo-celestia Plugin**  
+   Ensure that the `plugin-cosmo-celestia` is moved into the `packages` folder within the ElizaOS directory. For example:
+   ```bash
+   mv path/to/plugin-cosmo-celestia ./packages/
+   ```
+   *Note:* Replace `path/to/plugin-cosmo-celestia` with the actual path to the plugin on your system.
+
+3. **Deploying CosmoDEX Contract**  
+   To deploy the `CosmoDEX.sol` contract located in the `/contracts` folder, run the Hardhat deployment script:
+   ```bash
+   npx hardhat run scripts/deployFullCosmoDEX.js --network <network_name>
+   ```
+   *Note:* Replace `<network_name>` with the appropriate network you are using.
+
+4. **Repository URL**  
+   For more details, visit the repository:  
+   [https://github.com/First-Point/cosmo-celestia/](https://github.com/First-Point/cosmo-celestia/)
+
+
+
 ## 🌐 About Cosmo Hub Platform
 
 Cosmo Celestia is powered by [Cosmo Hub](https://cosmohub.ai/), our comprehensive AI agent platform for the ABC ecosystem. Features include:
