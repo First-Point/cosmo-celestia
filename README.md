@@ -11,7 +11,7 @@ IcecreamToken: 0x5b0B5E7fbd7f88582a25dA520E3e355866669960
 TestUSDC: 0x51Ed2EF83Db766f1555A5a2Ef6E602588aEd3c98
 ```
 
-
+Demo link: https://app.cosmohub.ai/cosmo-celestia
 ![Screenshot 2025-03-01 at 03 35 37](https://github.com/user-attachments/assets/5aba83b0-4f80-4e7c-8f88-87934ddbfbd4)
 ![Screenshot 2025-03-01 at 05 05 33](https://github.com/user-attachments/assets/792822ea-8563-42c4-8467-976969cca5dd)
 ![Screenshot 2025-03-01 at 02 38 35](https://github.com/user-attachments/assets/2f36c03d-7aa3-4d22-87af-60c0794e2a0c)
